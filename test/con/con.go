@@ -1,0 +1,5 @@
+package con
+
+func close() {
+
+}

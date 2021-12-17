@@ -16,26 +16,6 @@ import (
 // 	send()
 // }
 
-func addEntry(ledgerId, entryId int64, masterKey, body []byte) {
-
-	flag := proto.AddRequest_RECOVERY_ADD
-
-	addRequest := &proto.AddRequest{
-		LedgerId:  &ledgerId,
-		EntryId:   &entryId,
-		MasterKey: masterKey,
-		Body:      body,
-		Flag:      &flag,
-	}
-	log.Println(addRequest)
-}
-
-//获取ledger metadata
-// 接口实现
-func getLedgerMetadata() {
-
-}
-
 func getBookieInfo() {
 
 }
@@ -63,7 +43,6 @@ func send() {
 		Body:      []byte("world"),
 		Flag:      &flag,
 	}
-	
 
 	message := &proto.Request{
 		Header:     header,

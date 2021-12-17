@@ -1,0 +1,5 @@
+package bookie
+
+func getBookieInfo() {
+
+}
