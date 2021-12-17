@@ -16,10 +16,6 @@ import (
 // 	send()
 // }
 
-func getBookieInfo() {
-
-}
-
 func send() {
 
 	var txnId uint64 = 1
