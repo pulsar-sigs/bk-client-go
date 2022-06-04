@@ -1,5 +1,0 @@
-package bookie
-
-func getBookieInfo() {
-
-}

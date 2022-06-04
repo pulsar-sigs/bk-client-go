@@ -1,5 +1,0 @@
-package con
-
-func close() {
-
-}
